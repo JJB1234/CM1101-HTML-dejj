@@ -1,0 +1,84 @@
+@import "templatecolours.css";
+
+body{
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fcb276;
+}
+
+header{
+    background-color: #fcb276;
+}
+
+/* IMAGE SIZING */
+
+#rgulogo{
+    width: 100px;
+    float: right;
+}
+#feelgoodlogo{
+    width:100px;
+    height: 100px;
+    float:right;
+}
+
+#ocean{
+        width: 300px;
+        height: 300px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+      }
+
+
+
+/* NAVIGATION BAR CSS*/
+nav>ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav>ul>li {
+    float: left;
+}
+
+nav>ul>li a {
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+li a:hover {
+    color:#555;
+}
+li {
+    border-right: 1px solid #bbb;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+footer{
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+/*<!--COLLUM CSS-->*/
+
+.left-col {
+    width: 50%;
+    height: 900px;
+    float: left;
+    background-color: #8FE886;
+}
+.right-col{
+    width: 50%;
+    height:900px;
+    float: right;
+    background-color: #8FE886;
+}

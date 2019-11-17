@@ -1,0 +1,26 @@
+
+image{
+    border:  #8FE886;
+}
+*{
+    background-color:   #FCB276;
+}
+h1{
+    background-color: #8FE886;
+}
+.column {
+    float: left;
+    width: 60%;
+    padding: 5px;
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.rgu_logo {
+ position:right  
+
+}
